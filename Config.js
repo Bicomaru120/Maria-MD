@@ -27,7 +27,7 @@ global.prefa = process.env.PREFIX || "+",
 
 //false=disable and true=enable
 global.welcome = process.env.WELCOME || "false", //auto welcome
-global.autoRecording = false //auto recording
+global.autoRecording = true //auto recording
 global.autoTyping = false //auto typing
 global.autorecordtype = false //auto typing + recording
 global.autoread = false //auto read messages
@@ -53,7 +53,7 @@ global.mess = {
 module.exports = {
 ownernumber: global.ownernumber,
 ownername: global.ownername,
-sessionId: process.env.id || " ", // paste your session id here
+sessionId: process.env.id || "_M_A_R_I_A_TGVjdHVyZWRGaWdodGVycwo=", // paste your session id here
 AUTO_BLOCK : process.env.PM_BLOCKER,
 STATUS_SAVER : "true",
 ANTI_BOT:"true",
